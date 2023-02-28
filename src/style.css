@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: aqua;
+}
+h1 {
+  text-align: center;
+  margin: 5px;
+}
+.card {
+  margin: 100px;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.arriba {
+  position: absolute;
+  margin: 10px;
+  left: 20px;
+}
+.numero {
+  position: inherit;
+}
+.abajo {
+  position: absolute;
+  right: 20px;
+  margin: 10px;
+  bottom: 5px;
+}
