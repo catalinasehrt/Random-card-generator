@@ -5,7 +5,15 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+//write your code here
+window.onload = () => {
+  document.querySelector(".card").classList.add("♥");
+  setTimeout(() => {
+    document.querySelector(".card").classList.remove("♥");
+    document.querySelector(".card").classList.add("♣");
+  }, 1000);
 };
+
+let numeroRandom () {
+  let numero =  Math.random(Math.random() * 12);
+}

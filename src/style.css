@@ -6,24 +6,32 @@ body {
 h1 {
   text-align: center;
   margin: 5px;
+  font-family: "Franklin Gothic Medium";
 }
 .card {
+  background-image: url(https://i.pinimg.com/236x/d4/3b/ac/d43bac2628e5e0a9a7876b91dc418536.jpg);
+
+  display: inline-block;
   margin: 100px;
   width: 200px;
   height: 300px;
   border-radius: 20px;
 }
 .arriba {
+  font-size: 40px;
   position: absolute;
-  margin: 10px;
+  top: 0px;
+  margin: 3px;
   left: 20px;
 }
 .numero {
-  position: inherit;
+  font-size: 70px;
+  text-align: center;
 }
 .abajo {
+  font-size: 40px;
   position: absolute;
   right: 20px;
-  margin: 10px;
-  bottom: 5px;
+  margin: 3px;
+  bottom: 0px;
 }
